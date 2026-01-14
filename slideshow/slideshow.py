@@ -21,7 +21,7 @@ class gui:
     def pic(self):
         
         self.pic_list = []
-        path = r'/home/odroid/slideshow/makerspace-programs/*' # Set path to reflect folder where imgs live 
+        path = r'/path/to/images/*' # Set path to reflect folder where imgs live 
 
         for name in glob.glob(path):
             val = name
